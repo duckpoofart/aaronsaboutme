@@ -32,8 +32,20 @@ p {
   gap: 25px;   /* space between goals and socials */
 }
 
-.goals, .socials {
-  width: 50%;  /* each side takes half the space */
+.goals-socials {
+  display: flex;
+  justify-content: space-between; /* pushes socials to the right */
+  align-items: flex-start;
+}
+
+.goals {
+  width: 45%;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap; /* if many buttons, they wrap nicely */
 }
 
 
