@@ -10,7 +10,7 @@ h1 {
 }
 img {
   border-radius: 15px;
-  width: 150px;
+  width: 400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -99,4 +99,9 @@ p {
   background: #4752c4;
 }
 
+.not-center {
+  display: block;
+  margin: 0; /* no centering */
+  border-radius: 15px; /* optional to match other images */
+}
 
