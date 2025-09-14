@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(35, 35, 35);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+}
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+img {
+  border-radius: 15px;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3 {
+  margin-bottom: 3px;  /* space after heading */
+}
+
+p {
+  margin-top: 5px;     /* space before paragraph */
+  margin-bottom: 5px;  /* space after paragraph */
+  line-height: 1.2;    /* tighten line spacing (1.0 = very tight) */
+}
+
+.two-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 25px;   /* space between goals and socials */
+}
+
+.goals, .socials {
+  width: 50%;  /* each side takes half the space */
+}
+
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+/* Roblox (custom gray) */
+.roblox {
+  background: #343434;
+  margin-top: 20px;
+  margin-left: auto;
+}
+.roblox:hover {
+  background: #555;
+}
+
+/* Twitter */
+.twitter {
+  background: #1DA1F2;
+  margin-top: 20px;
+    margin-left: auto;
+}
+.twitter:hover {
+  background: #0d8ddb;
+}
+
+/* YouTube */
+.youtube {
+  background: #FF0000;
+  margin-top: 20px;
+  margin-left: auto;
+}
+.youtube:hover {
+  background: #cc0000;
+}
+
+.discord {
+  background: #5865F2;  /* official Discord blurple */
+  margin-left: auto;
+}
+.discord:hover {
+  background: #4752c4;
+}
+
+
